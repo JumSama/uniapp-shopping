@@ -1,0 +1,97 @@
+{
+	"pages": [{
+		"path": "pages/tabBar/home/home",
+		"style": {
+			"navigationBarTitleText": "首页",
+			"app-plus": {
+				"titleNView": false,
+				"bounce":"none"
+			}
+		}
+	}, {
+		"path": "pages/tabBar/category/category",
+		"style": {
+			"navigationBarTitleText": "分类",
+			"app-plus": {
+				"titleNView": false,
+				"bounce":"none"
+			}
+		}
+	}, {
+		"path": "pages/tabBar/cart/cart",
+		"style": {
+			"navigationBarTitleText": "购物车",
+			"app-plus": {
+				"titleNView": false,
+				"bounce":"none"
+			}
+		}
+	}, {
+		"path": "pages/tabBar/user/user",
+		"style": {
+			"navigationBarTitleText": "我的"
+		}
+	}, {
+		"path": "pages/goods/goodsList",
+		"style": {
+			"navigationBarTitleText": "",
+			"onReachBottomDistance": 50,
+			"enablePullDownRefresh": true
+		}
+	}, {
+		"path": "pages/goods/goods",
+		"style": {
+			"navigationBarTitleText": "",
+			"app-plus": {
+				"titleNView": false,
+				"bounce": "none"
+			},
+			"h5": {
+				"titleNView": false
+			}
+		}
+	}, {
+		"path": "pages/goods/ratings"
+	}, {
+		"path": "pages/order/confirm"
+	}, {
+		"path": "pages/tabBar/user/qrcode"
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+		// "app-plus": {
+		// 	"titleNView": false,
+		// 	"bounce":"none"
+		// }
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath":"pages/tabBar/home/home",
+			"iconPath":"static/img/tabBar/home.png",
+			"selectedIconPath":"./static/img/tabBar/home-on.png",
+			"text":"首页"
+		}, {
+			"pagePath":"pages/tabBar/category/category",
+			"iconPath":"static/img/tabBar/category.png",
+			"selectedIconPath":"static/img/tabBar/category-on.png",
+			"text":"分类"
+		}, {
+			"pagePath":"pages/tabBar/cart/cart",
+			"iconPath":"static/img/tabBar/cart.png",
+			"selectedIconPath":"static/img/tabBar/cart-on.png",
+			"text":"购物车"
+		}, {
+			"pagePath":"pages/tabBar/user/user",
+			"iconPath":"static/img/tabBar/user.png",
+			"selectedIconPath":"static/img/tabBar/user-on.png",
+			"text":"我的"
+		}]
+	}
+}
