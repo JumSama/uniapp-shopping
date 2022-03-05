@@ -9,3 +9,6 @@
 
 ## 部分作品截图
 ![首页](https://github.com/JumSama/uniapp-shopping/blob/main/img/1.PNG)
+![分类](https://github.com/JumSama/uniapp-shopping/blob/main/img/2.PNG)
+![购物车](https://github.com/JumSama/uniapp-shopping/blob/main/img/3.PNG)
+![我的](https://github.com/JumSama/uniapp-shopping/blob/main/img/4.PNG)
