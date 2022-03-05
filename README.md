@@ -8,4 +8,4 @@
 个人页面、商品展示、商品分类、购物车、收藏、加购等功能
 
 ## 部分作品截图
-![首页](https://github.com/JumSama/uniapp-shopping/raw/main/img/1.png)
+![首页](https://github.com/JumSama/uniapp-shopping/blob/main/img/1.PNG)
